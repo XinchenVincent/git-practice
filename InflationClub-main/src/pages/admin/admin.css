@@ -1,0 +1,23 @@
+.left-nav {
+  width: 200px;
+  height: 600px;
+  background-color: red;
+  float: left;
+}
+.left-nav .left-route {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  margin: 40px 50px;
+  width: 100px;
+}
+.left-nav .left-route:first-child {
+  border-bottom: 10px double blue;
+  padding-bottom: 20px;
+}
+.left-nav .right-content {
+  float: right;
+  background-color: white;
+}

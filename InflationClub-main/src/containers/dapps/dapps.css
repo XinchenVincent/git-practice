@@ -1,0 +1,212 @@
+
+.dapps_main_div{
+  background-image: url('../../assets/startnight.jpg');
+  /* background-color: #171717; */
+  background-size: 100% 100%;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+}
+
+/* .dapps-youtube-gradient {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(204deg,#000000 20%,rgba(0,0,0,.43) 69%,rgba(0,0,0,.17) 87%,#000000 100%);
+    position: absolute;
+    z-index: 1;
+  }
+   */
+
+.container {
+  position: absolute;
+  top: 0%;
+  z-index: 20 !important;
+}
+.dapps-comming-soon-wrp {
+  position: fixed;
+  top: 15%;
+  left: 53%;
+  z-index: 20 !important;
+  font-family: "Matter";
+  margin: 0;
+  color: #fff;
+  /* justify-items: center;
+  align-items: center; */
+
+}
+
+ .dapps-discord-icon {
+  height: 62px;
+  width: 62px;
+  background: url(../../assets/discord-icon.png) no-repeat;
+  background-size: cover;
+}
+
+.dapps-comming-soon-wrp .dapps-discord .discord-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .7;
+}
+
+.dapps-comming-soon-wrp .dapps-discord {
+  display: flex;
+  flex-direction:  row;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 3rem;
+}
+
+.dapps-comming-soon-wrp .discord-invite {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 3rem;
+}
+
+
+.dapps-comming-soon-wrp .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dapps-feature-wrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 31px;
+  background-image: linear-gradient(204deg,#000000 20%,rgba(0,0,0,.30) 69%,rgba(0,0,0,.17) 87%,#000000 100%);
+  z-index: 1;
+
+}
+
+.dapps-feature-wrp1 {
+  margin:2rem 2rem;
+}
+/* .profile{
+  background-color:#bf4145;
+  color: #bf4145;
+  border-radius: 31px;
+  height:350px;
+  width: 235px;
+  align-items: center;
+} */
+
+.profile{
+  background-color:#aa2217;
+  border-radius: 31px;
+  width: 255px;
+  height: 335px;
+  cursor: grab;
+  bottom: 18px;
+  right: 18px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10%; */
+  /* padding-left:1rem ; */
+}
+
+.profile img{
+  width: 235px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.dapps-comming-soon-wrp .t1 {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-radius: 11px;
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  font-size: 10px;
+}
+
+.dapps-comming-soon-wrp .t2 {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  font-family: Matter;
+  font-size: 40px;
+  font-weight: 600;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+
+}
+
+.feature-wrp{
+  display: flex; flex-direction: row; max-width: 400px; align-items: center; margin-bottom: 24px;
+}
+
+.feature-outer {
+  display: flex;
+  flex-direction: column;
+  max-height: 525px;
+  justify-content: space-between;
+  padding: 24px 0px;
+  margin: 1.5rem;
+
+
+
+}
+
+.icon-wrp {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.063);
+  font-size: 24px;
+}
+
+.comment{
+  color: rgb(137, 133, 147);
+}
+
+.dapps-discord h2{
+  background-color: #aa2217;
+  border: 2px solid #f7f5f5;
+  border-radius: 28.5px;
+  color: #f7f5f5;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  height: 57px;
+  line-height: 57px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+  width: 330px;
+}
+
+
+.dapps-discord  h2:hover {
+  background-color: transparent;
+  border: 2px solid #f7f5f5;
+  border-radius: 28.5px;
+  color: #f7f5f5;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  height: 57px;
+  line-height: 57px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+  width: 330px;
+  transition: all .4s ease-in-out
+}

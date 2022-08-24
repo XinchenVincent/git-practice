@@ -1,0 +1,71 @@
+@import 'clear.less';
+.dashboard{
+  width: 100%;
+  height: 100vh;
+  // height: auto;
+  background-image: url('../../assets/startnight.jpg');
+  background-size: 100% 100%;
+  // display: flex;
+  // overflow:scroll;
+  // overflow-y: scroll;
+  .clearfix();
+  .header{
+    height:55.5px;
+    width: 100%;
+    display: flex;
+    .clearfix();
+  }
+  .left-nav{
+    background-color: rgba(3, 7, 33, 0.4);
+    height: 100%;
+    float: left;
+  
+    .nav{
+      background-color: rgba(3, 7, 33, 0.4);
+      height: 1000px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      margin-top: 100px;
+      .route-li{
+        display:block;
+        margin-top: 5px;
+        padding-bottom: 20px;
+        text-transform:uppercase;
+        
+        &:first-child{
+         border-bottom: 1px solid white;
+         padding-bottom: 20px;
+        }
+        &:nth-child(2){
+          border-top: 1px solid white;
+          padding-top: 20px;
+        }
+        &:nth-child(3){
+          border-bottom: 1px solid white;
+          padding-bottom: 20px;
+        }
+        &:nth-child(4){
+          padding-top: 20px;
+        }
+      }
+      .left-route:hover{
+        color: #d44444!important;
+        background: #fff;
+        transition: all .4s ease-in-out;
+      }
+    }
+  }
+  .right-content{
+    // display: flex;
+    overflow: scroll;
+    width: calc(100% - 200px);
+    height: 800px;
+    // width: 60px;
+    float: left;
+    flex-shrink: 0;
+    
+  }
+}
+

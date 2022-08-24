@@ -1,0 +1,179 @@
+
+/*
+  .verify_main_div{
+    background-image: url('../../assets/startnight.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+  }
+*/
+
+/* .verify_main_div{
+  overflow:scroll;
+} */
+
+.verify-wrap {
+    position: absolute;
+    top: 0%;
+    z-index: 20 !important;
+  }
+
+.underway{
+  position: relative;
+  left: 5rem;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  
+  /* justify-content: center;
+  align-items: center; */
+  /* z-index: 100; */
+}
+
+.underway-t1 {
+  margin: 0px;
+  padding: 0px;
+  color: orange;
+  font-family: Matter;
+  font-size: 40px;
+  font-weight: 600;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+
+}
+
+.underway-dash{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 11px;
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 20px;
+}
+
+.underway-icon{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 11px;
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+  width:120px;
+  height: 160px;
+  color: white;
+  font-family: Matter;
+  font-size: 10px;
+  font-weight: 600;
+
+}
+
+.underway-icon .connect{
+  margin-top: 6rem;
+  background-color: orange;
+  border-radius: 11px;
+  padding: 5px 8px;
+  width:120px;
+  justify-content: center;
+  align-items: center;
+  font-family: Matter;
+  /* left: 1rem; */
+}
+
+.underway-icon .connect-item:hover {
+	color: orange!important;
+    background: #fff;
+    transition: all .4s ease-in-out;
+    border-radius: 11px !important;
+    
+}
+
+
+.comming_soon{
+  position: relative;
+  left: 5rem;
+  top: 100px;
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  /* z-index: 100; */
+}
+
+
+.comming_soon-t1 {
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+  font-family: Matter;
+  font-size: 40px;
+  font-weight: 600;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+
+}
+
+.comming_soon-dash{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 11px;
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 20px;
+  margin-bottom: 2rem;  
+}
+
+.verify_id{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 11px;
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 200px;
+  color: white;
+  font-family: Matter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.comming_soon-icon{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 11px;
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+  width:120px;
+  height: 160px;
+  color: white;
+  font-family: Matter;
+  font-size: 10px;
+  font-weight: 600;
+
+}
+.comming_soon-icon .connect{
+  margin-top: 6rem;
+  background-color: grey;
+  border-radius: 11px;
+  padding: 5px 8px;
+  width:120px;
+  /* width: 100%; */
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-family: Matter;
+  /* left: 1rem; */
+}

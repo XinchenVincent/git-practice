@@ -1,0 +1,234 @@
+.ic3__navbar {
+    z-index: 100;
+    background-color:rgba(3, 7, 33, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    padding: 0rem 2rem;
+    width: 100%;
+}
+
+.ic3__navbar::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: blur(5px);
+}
+
+.ic3__navbar-links {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ic3__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.ic3__navbar-links_logo img {
+    position: relative;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+}
+
+.ic3__navbar-links_container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.ic3__navbar-social-media {
+    display: flex;
+    margin-right: 39px;
+    z-index: 2;
+}
+.ic3__navbar-social-media li {
+    margin-right: 39px !important; 
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+
+}
+/* li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+} */
+
+.ic3__navbar-social-media img {
+    display: block;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    /* margin-right:39px; */
+}
+
+.ic3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+}
+
+.ic3__navbar-links_container p,
+.ic3__navbar-sign p,
+/* .ic3__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-weight: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+} */
+
+.ic3__navbar-sign button,
+.ic3__navbar-menu_container button {
+    padding: 0.2rem 1rem;
+    color: #fff;
+    background: #d1310e;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:15px;
+    font-style: normal;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.ic3__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.ic3__navbar-menu svg {
+    cursor: pointer;
+}
+
+.ic3__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    /* background: var(--color-footer); */
+    background: white;
+    position:  absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.ic3__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.ic3__navbar-menu_container-links-sign {
+    display: none;
+}
+
+.center {
+    padding-left: 3rem;
+}
+
+.menu-item {
+    z-index: 100;
+    opacity: 1;
+	height: 40px;
+	padding: 0 16px;
+	margin: 0 2px;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+	color: #fff;
+	letter-spacing: 0;
+	cursor: pointer;
+	transition: all .4s ease-in-out
+}
+
+
+  
+  ul{
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    transition:0.5s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(1);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:white;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+
+
+.ic3__navbar .menu-item:hover {
+	color: #d44444!important;
+    background: #fff;
+    transition: all .4s ease-in-out
+}
+
+

@@ -1,0 +1,36 @@
+/* .TestDiv {
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    top: 30% !important;
+    left: 40% !important; 
+    z-index: 100000000000000000!important;
+} */
+
+.manifesto-wrp {
+    width: 40vw;
+    color: #fff;
+    position: absolute !important;
+
+    display: flex !important;
+    flex-direction: column;
+    top: 15% !important;
+    left: 30% !important; 
+    z-index: 100!important;
+
+}
+
+.manifesto-wrp p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 14px;
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-weight: 700;
+}
+
+/* .poster_words {
+    z-index: 100000000000000000!important;
+} */
